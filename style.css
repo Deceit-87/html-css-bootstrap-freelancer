@@ -10,3 +10,9 @@
     height:400px;
 
 }
+
+.ms_img-wrapper {
+    flex-basis: 33%;
+    aspect-ratio: 1/0.6;
+    flex-grow: 1;
+}
