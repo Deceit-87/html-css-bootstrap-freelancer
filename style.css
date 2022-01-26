@@ -1,7 +1,9 @@
 html{
     color: white;
 }
-
+/* body{
+    width: 1651px;
+} */
 /* .debug {
     border: 2px dashed red;
     min-height: 90px;
@@ -19,9 +21,9 @@ html{
 .debug .debug {
     border: 2px solid lightskyblue;
 }
-.ms_profile_wrapper{
-
-    height:400px;
+.ms-profile-wrapper img{
+    width: 270px;
+   object-fit: cover;
 
 }
 
