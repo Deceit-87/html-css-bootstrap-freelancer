@@ -20,7 +20,18 @@ html{
 
 }
 
+.btn.btn-succes.background-green {
+    background-color: #1abc9c;
+    color: white;
+    border: 1px solid white;
 
+}
+.form-floating.border_bottom input,.form-floating.border_bottom textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
 #jumbo{
     
     text-align: center;
