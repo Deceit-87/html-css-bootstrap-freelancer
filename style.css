@@ -1,6 +1,9 @@
 html{
     color: white;
 }
+* ul li{
+    list-style: none;
+}
 /* body{
     width: 1651px;
 } */
@@ -21,20 +24,80 @@ html{
 .debug .debug {
     border: 2px solid lightskyblue;
 }
+#jumbo{
+    
+    text-align: center;
+     background-color:#1abc9c;
+}
 .ms-profile-wrapper img{
     width: 270px;
    object-fit: cover;
+   margin: 0 auto;
 
 }
-
-.ms_img-wrapper img{
-    min-width: 100%;
+.profile-title{
+    color:white;
 }
 
-.ms_img-wrapper {
-    flex-basis: 33%;
-   
+
+
+
+.star-container:after ,.star-container:before {
+    content:"";
+    display: block;
+    height: 2px;
+    width: 171px;
+    background-color: black;
+    border-radius: 999;
 }
+
+
+.job-title li:not(:last-child):after {
+    display: inline;
+    content: "-";
+    padding: 0 15px;
+}
+
+.job-title li{
+    white-space: nowrap;
+} 
+
+
+.section-title.text-white .star-container:after ,
+.section-title.text-white .star-container:before {
+    background-color: white;
+}
+
+
+
+.portfolio-card {
+    min-height: 260px;
+    background-color: lightcoral;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative
+}
+
+.portfolio_card:after i{
+    content: "";
+    display: block;
+    background-color: #1abc9c;
+    position: absolute;
+    transition: all 0.2s ease-in-out ;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.portfolio_card:hover i{
+    opacity: 1;
+}
+.portfolio_card:hover::after{
+    opacity: 0.7;
+}
+
 
 .about_description{
     column-count: 2;
