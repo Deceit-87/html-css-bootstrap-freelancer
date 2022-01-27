@@ -38,9 +38,6 @@ html{
    margin: 0 auto;
 
 }
-.profile-title{
-    color:white;
-}
 
 
 footer{
@@ -68,7 +65,7 @@ footer{
 } 
 
 
-.section-title.text-white .star-container:after ,
+.section-title.text-white .star-container:after,
 .section-title.text-white .star-container:before {
     background-color: white;
 }
